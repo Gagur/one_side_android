@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.guga.lib.inject.InjectUtils;
+import com.guga.lib.inject.InjectView;
+
 import java.lang.annotation.Annotation;
 
 /**
@@ -14,10 +17,12 @@ public class BaseActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        Annotation anno = getClass().getAnnotation(OsBaseAnno.class);
+        InjectUtils.autoInject(this);
     }
 
+    private void getLayoutId() {
+        Annotation anno = getClass().getAnnotation(OsBaseAnno.class);
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
