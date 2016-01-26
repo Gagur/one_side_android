@@ -13,4 +13,5 @@ import java.lang.annotation.Target;
 @Target({ ElementType.FIELD, ElementType.TYPE})
 @Inherited
 public @interface OsBaseAnno {
+    int layoutId() default -1;
 }

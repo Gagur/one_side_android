@@ -2,26 +2,47 @@ package com.guga.onside.base;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.guga.lib.inject.InjectUtils;
-import com.guga.lib.inject.InjectView;
-
-import java.lang.annotation.Annotation;
+import com.guga.onside.view.GTitleBar;
 
 /**
  * Created by pingfu on 16/1/13.
  */
-public class BaseActivity extends FragmentActivity {
+public class BaseActivity extends AppCompatActivity {
+    private LinearLayout rootView;
+    protected GTitleBar mTitleBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         InjectUtils.autoInject(this);
+        rootView = new LinearLayout(this);
+        rootView.setOrientation(LinearLayout.VERTICAL);
+
+        //addTitleBar
+        mTitleBar = new GTitleBar(this);
+        rootView.addView(mTitleBar);
+        try {
+            View view = View.inflate(this, getLayoutId(), null);
+            rootView.addView(view);
+        } catch (Exception e) {
+
+        }
+        setContentView(rootView);
     }
 
-    private void getLayoutId() {
-        Annotation anno = getClass().getAnnotation(OsBaseAnno.class);
+    private int getLayoutId() {
+        OsBaseAnno anno = getClass().getAnnotation(OsBaseAnno.class);
+        int layoutId = 0;
+        if(anno != null) {
+            layoutId = anno.layoutId();
+        }
+
+        return layoutId;
     }
 
     @Override

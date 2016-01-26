@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公共字体 -->
+    <style name="myStyle" parent="android:Widget" />
+
+    <style name="myStyle.BlackSmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackSuperBigText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackSuperHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackSuperHuge1Text">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.BlackSuperLargeHugeText">
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="myStyle.WhiteSmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.WhiteNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.WhiteBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.WhiteSuperBigText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.WhiteHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.WhiteSuperHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.WhiteContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myStyle.BlueSmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#1ba9ba</item>
+    </style>
+
+    <style name="myStyle.BlueNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#1ba9ba</item>
+    </style>
+
+    <style name="myStyle.BlueBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#1ba9ba</item>
+    </style>
+
+    <style name="myStyle.BlueHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#1ba9ba</item>
+    </style>
+
+    <style name="myStyle.BlueContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#1ba9ba</item>
+    </style>
+
+    <style name="myStyle.LightGraySmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="myStyle.LightGrayNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="myStyle.LightGrayBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="myStyle.LightGrayHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="myStyle.LightGrayContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="myStyle.OrangeSmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.OrangeNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.OrangeBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.OrangeSuperBigText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.OrangeHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.OrangeContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.OrangeSuperHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.DeepOrangeTinyText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ff4400</item>
+    </style>
+
+    <style name="myStyle.DeepOrangeSmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#FF4400</item>
+    </style>
+
+    <style name="myStyle.DeepOrangeNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#FF4400</item>
+    </style>
+
+    <style name="myStyle.DeepOrangeBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FF4400</item>
+    </style>
+
+    <style name="myStyle.DeepOrangeContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FF4400</item>
+    </style>
+
+    <style name="myStyle.DeepOrangeHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FF4400</item>
+    </style>
+
+    <style name="myStyle.GrayTinyText">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.GraySmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.GrayNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.GrayBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.GrayHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.GraySuperHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.GrayContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#7f8081</item>
+    </style>
+
+    <style name="myStyle.DeepGraySmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="myStyle.DeepGrayNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="myStyle.DeepGrayBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="myStyle.DeepGrayHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="myStyle.DeepGraySuperHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="myStyle.DeepGrayContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="myStyle.RedTinyText">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.RedSmallText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.RedNormalText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.RedBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.RedSuperHugeText">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.RedMostHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.RedHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="myStyle.GBRedHugeText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.GBRedMostHugeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#ff3300</item>
+    </style>
+
+    <style name="myStyle.RedContentTitleText">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+</resources>

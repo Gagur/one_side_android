@@ -1,0 +1,47 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/ll_padding"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" />
+
+    <RelativeLayout android:id="@+id/rl_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/lib_blue_common_color">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/lib_back_blue"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="标题"
+            style="@style/myStyle.WhiteSuperBigText"/>
+
+        <LinearLayout
+            android:id="@+id/ll_title_right_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            />
+
+    </RelativeLayout>
+
+</merge>

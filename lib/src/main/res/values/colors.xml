@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common part -->
+    <color name="atom_gb_red_bag_orange">#ff9933</color>
+    <color name="atom_gb_details_gray_text">#ff999999</color>
+    <color name="atom_gb_trade_area_no_1">#ff6e6e</color>
+    <color name="atom_gb_trade_area_no_2">#f8b62b</color>
+    <color name="atom_gb_trade_area_no_3">#0fa7cc</color>
+    <color name="atom_gb_trade_area_no_4">#ff8913</color>
+    <color name="atom_gb_trade_area_no_5">#4d97f4</color>
+    <color name="atom_gb_trade_area_no_6">#33cccc</color>
+    <color name="lib_blue_common_color">#1ba9ba</color>
+    <color name="atom_gb_gray_common_color">#7f8081</color>
+    <color name="atom_gb_hotel_classify_selected">#28A9B9</color>
+    <color name="atom_gb_hotel_layout_classify_selected">#C9D0D6</color>
+    <color name="atom_gb_homepage_layout_classify_pressed">#F8F8F8</color>
+    <color name="atom_gb_hotel_layout_classify_normal">#FFFFFF</color>
+    <color name="atom_gb_deepgray_common_color">#666666</color>
+    <color name="atom_gb_discount_rose_red">#ff527f</color>
+    <color name="atom_gb_details_price_calendar">#f1f1f1</color>
+    <color name="atom_gb_color_white">#FFFFFFFF</color>
+    <color name="atom_gb_transprent_half_black">#80000000</color>
+    <color name="atom_gb_filter_item_bg_select">#ffefefef</color>
+    <color name="atom_gb_filter_item_bg_unselect">#00ffffff</color>
+    <color name="atom_gb_filter_item_text_select">#ff1ba9ba</color>
+    <color name="atom_gb_filter_item_text_unselect">#ff666666</color>
+
+    <!-- missing -->
+    <color name="atom_gb_fast_reserve_btn_normal">#2dc188</color>
+    <color name="atom_gb_fast_reserve_btn_press">#218f65</color>
+    <color name="atom_gb_green_enable">#2DC188</color>
+    <color name="atom_gb_green_disable">#8FDCC1</color>
+    <color name="atom_gb_green_press">#218f65</color>
+    <color name="atom_gb_ota_item_readed">#88dddddd</color>
+    <color name="atom_gb_ota_item_unread">#f5f5f5</color>
+    <color name="atom_gb_color_blue">#229EA5</color>
+    <color name="atom_gb_voucheritem_blue">#999cd8e1</color>
+    <color name="atom_gb_common_grey">#D1D3D4</color>
+    <color name="atom_gb_unknowed_color">#B7B7B7</color>
+    <color name="atom_gb_transparent_white">#e5ffffff</color>
+    <color name="atom_gb_table_title_des">#00616d</color>
+    <color name="atom_gb_money_orange">#ffcf5b</color>
+    <color name="atom_gb_text_gray">#b5b5b5</color>
+
+    <!-- missing -->
+    <color name="atom_gb_init_assets_color">#656565</color>
+    <color name="atom_gb_vertical_line_color">#99d1d3d4</color>
+    <color name="atom_gb_important_tip_background">#f8facd</color>
+    <color name="atom_gb_color_orange_enable">#FF4500</color>
+    <color name="atom_gb_color_orange_disable">#FDD8CA</color>
+    <color name="atom_gb_order_text_light">#ffff4500</color>
+
+    <color name="atom_mv_blue_common_color">#1ba9ba</color>
+    <!--UI modify-->
+    <color name="atom_gb_detail_underline">#1ca9bb</color>
+    <color name="atom_gb_order_reduce_disable">#cccccc</color>
+
+
+    <color name="atom_gb_detail_fast_reserve">#ff9402</color>
+    <color name="atom_gb_detail_discount_title">#ff3366</color>
+
+    <!-- TitleBarText-->
+    <color name="atom_gb_list_title_bar_text_normal">#FFFFFFFF</color>
+    <color name="atom_gb_list_title_bar_text_active">#FF77FFFF</color>
+
+    <!-- Favorite page -->
+    <color name="atom_gb_favorite_sub_tab_text_normal">#FF666666</color>
+    <color name="atom_gb_favorite_sub_tab_text_active">#FFFFFFFF</color>
+    <color name="atom_gb_favorite_sub_tab_btn_normal">#FFF1F1F1</color>
+
+    <color name="atom_gb_filter_more_btn_cancel_normal">@color/atom_gb_color_white</color>
+    <color name="atom_gb_filter_more_btn_cancel_active">#fff1f1f1</color>
+
+    <color name="atom_gb_page_background">#ffedf2f3</color>
+    <color name="atom_gb_filter_more_reset_btn">#ff77ffff</color>
+
+    <color name="atom_gb_list_banner_bg">#ffefefef</color>
+
+</resources>

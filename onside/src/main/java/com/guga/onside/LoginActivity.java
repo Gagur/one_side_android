@@ -29,6 +29,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.guga.lib.inject.From;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,6 +59,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private UserLoginTask mAuthTask = null;
 
     // UI references.
+    @From(R.id.email)
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
