@@ -12,6 +12,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD, ElementType.TYPE})
 @Inherited
-public @interface OsBaseAnno {
+public @interface OsAnnotation {
     int layoutId() default -1;
 }

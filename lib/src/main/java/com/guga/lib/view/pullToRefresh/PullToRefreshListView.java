@@ -1,4 +1,4 @@
-package com.guga.lib.pullToRefresh;
+package com.guga.lib.view.pullToRefresh;
 
 /**
  * Created by pingfu on 16/1/13.

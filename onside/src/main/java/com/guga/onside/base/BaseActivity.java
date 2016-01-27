@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.guga.lib.inject.InjectUtils;
+import com.guga.lib.utils.UCUtils;
 import com.guga.onside.view.GTitleBar;
 
 /**
@@ -26,6 +27,8 @@ public class BaseActivity extends AppCompatActivity {
         //addTitleBar
         mTitleBar = new GTitleBar(this);
         rootView.addView(mTitleBar);
+        mTitleBar.setVisibility(View.GONE);
+
         try {
             View view = View.inflate(this, getLayoutId(), null);
             rootView.addView(view);
@@ -36,13 +39,21 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     private int getLayoutId() {
-        OsBaseAnno anno = getClass().getAnnotation(OsBaseAnno.class);
+        OsAnnotation anno = getClass().getAnnotation(OsAnnotation.class);
         int layoutId = 0;
         if(anno != null) {
             layoutId = anno.layoutId();
         }
 
         return layoutId;
+    }
+
+    protected boolean isValidUser() {
+        if(UCUtils.getInstance().isValidUser()) {
+
+        }
+
+        return false;
     }
 
     @Override
@@ -59,6 +70,7 @@ public class BaseActivity extends AppCompatActivity {
     public void startActivity(Intent intent) {
         super.startActivity(intent);
     }
+
 
     @Override
     public void startActivity(Intent intent, Bundle options) {
