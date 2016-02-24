@@ -1,7 +1,7 @@
 package com.guga.lib.net.callback;
 
 import com.guga.lib.net.OkHttpUtils;
-import com.guga.lib.net.utils.L;
+import com.guga.lib.net.utils.HttpConstants;
 
 import okhttp3.Response;
 
@@ -47,7 +47,7 @@ public abstract class FileCallBack extends Callback<File> {
             final long total = response.body().contentLength();
             long sum = 0;
 
-            L.e(total + "");
+            HttpConstants.e(total + "");
 
             File dir = new File(destFileDir);
             if (!dir.exists()) {

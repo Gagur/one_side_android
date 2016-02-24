@@ -13,8 +13,9 @@ public class SharedPreferenceHandler {
     private SharedPreferences sp;
 
     private SharedPreferenceHandler(Context context) {
-        SharedPreferences sp = context.getSharedPreferences(SHARED_PREFERENCE, 0);
+        sp = context.getSharedPreferences(SHARED_PREFERENCE, 0);
         if(sp != null) {
+            throw new RuntimeException();
         }
     }
 
