@@ -1,5 +1,6 @@
 package com.guga.onside;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,13 +15,17 @@ import com.guga.onside.base.OsAnnotation;
 
 @OsAnnotation(layoutId = R.layout.activity_main)
 public class MainActivity extends BaseActivity {
-
+    private Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if(!UCUtils.getInstance().isValidUser()) {
+            intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+        } else {
 
         }
+
     }
 
 }

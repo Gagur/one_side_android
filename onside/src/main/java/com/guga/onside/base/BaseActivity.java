@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 
 import com.guga.lib.inject.InjectUtils;
 import com.guga.lib.utils.UCUtils;
+import com.guga.onside.model.BaseParam;
 import com.guga.onside.view.GTitleBar;
 
 /**
@@ -75,5 +76,9 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     public void startActivity(Intent intent, Bundle options) {
         super.startActivity(intent, options);
+    }
+
+    protected void startRequest(ServiceMap serviceMap, BaseParam param) {
+
     }
 }
