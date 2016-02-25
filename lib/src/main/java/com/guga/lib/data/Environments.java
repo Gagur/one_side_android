@@ -30,7 +30,7 @@ public class Environments {
         String host = null;
         if (isDevEnvironment()) {
             SharedPreferenceHandler preferenceHandler = getSharedPreferenceHandler(context);
-            host = preferenceHandler.getSharedPreference(DEV_HOST_TAG, "");
+            host = preferenceHandler.getData(DEV_HOST_TAG, "");
         } else if (isReleaseEnvironment()) {
             host = "";
         }

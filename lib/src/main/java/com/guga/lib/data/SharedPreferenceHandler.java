@@ -27,35 +27,35 @@ public class SharedPreferenceHandler {
         return instance;
     }
 
-    public void saveSharedPreference(String key, String value) {
+    public void save(String key, String value) {
         if(sp != null) {
             sp.edit().putString(key, value);
             sp.edit().commit();
         }
     }
 
-    public void saveSharedPreference(String key, int value) {
+    public void save(String key, int value) {
         if(sp != null) {
             sp.edit().putInt(key, value);
             sp.edit().commit();
         }
     }
 
-    public void saveSharedPreference(String savedData, boolean value) {
+    public void save(String savedData, boolean value) {
         if(sp != null) {
             sp.edit().putBoolean(savedData, value);
             sp.edit().commit();
         }
     }
 
-    public void saveSharedPreference(String savedData, Float value) {
+    public void save(String savedData, Float value) {
         if(sp != null) {
             sp.edit().putFloat(savedData, value);
             sp.edit().commit();
         }
     }
 
-    public String getSharedPreference(String key, String defaultValue) {
+    public String getData(String key, String defaultValue) {
         if(sp != null) {
             return sp.getString(key, defaultValue);
         }
@@ -63,7 +63,7 @@ public class SharedPreferenceHandler {
         return null;
     }
 
-    public int getSharedPreference(String key, int defaultValue) {
+    public int getData(String key, int defaultValue) {
         if(sp != null) {
             return sp.getInt(key, defaultValue);
         }
@@ -71,7 +71,7 @@ public class SharedPreferenceHandler {
         return 0;
     }
 
-    public boolean getSharedPreference(String key, boolean defaultValue) {
+    public boolean getData(String key, boolean defaultValue) {
         if(sp != null) {
             return sp.getBoolean(key, defaultValue);
         }
@@ -79,7 +79,7 @@ public class SharedPreferenceHandler {
         return false;
     }
 
-    public float getSharedPreference(String key, float defaultValue) {
+    public float getData(String key, float defaultValue) {
         if(sp != null) {
             return sp.getFloat(key, defaultValue);
         }
