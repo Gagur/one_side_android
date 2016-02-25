@@ -44,6 +44,10 @@ Thumbs.db
 .idea/misc.xml
 .idea/dictionaries
 .idea/uiDesigner.xml
+.idea/.name
+.idea/modules.xml
+.idea/runConfiguration.xml
+.idea/vcs.xml
 .DS_Store
 /build
 
