@@ -1,13 +1,15 @@
-package com.guga.lib.data;
+package com.guga.onside.base;
 
 import android.content.Context;
+import android.util.Log;
 
-import com.guga.lib.BuildConfig;
+import com.guga.lib.data.SharedPreferenceHandler;
+import com.guga.onside.BuildConfig;
 
 /**
  * Created by pingfu on 16/2/24.
  */
-public class Environments {
+public class EnvironmentHandler {
     private static final String DEBUG = "debug";
     private static final String BETA = "beta";
     private static final String RELEASE = "release";

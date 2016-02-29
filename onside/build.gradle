@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'jacoco'
 
 android {
     compileSdkVersion 23
@@ -25,7 +24,6 @@ android {
         debug {
             testCoverageEnabled true
             buildConfigField 'String','API_SERVER_URL','"http://127.0.0.1/onside"'
-
         }
     }
 }

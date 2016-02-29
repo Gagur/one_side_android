@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="mDialogStyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_in</item>  //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_out</item>  //退出时的动画
+    </style>
 </resources>

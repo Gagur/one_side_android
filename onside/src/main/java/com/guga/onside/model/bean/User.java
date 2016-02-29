@@ -4,7 +4,7 @@ import com.guga.onside.model.BaseModel;
 
 /**
  * the User model, which is used to save the basic info of the user
- *
+ * <p/>
  * Created by pingfu on 16/1/18.
  */
 public class User extends BaseModel {

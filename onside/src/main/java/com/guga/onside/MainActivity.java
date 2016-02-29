@@ -19,6 +19,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if(!UCUtils.getInstance().isValidUser()) {
             intent = new Intent(this, LoginActivity.class);
             startActivity(intent);

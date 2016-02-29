@@ -1,6 +1,5 @@
 package com.guga.onside;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.guga.onside.base.BaseActivity;
