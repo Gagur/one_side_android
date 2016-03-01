@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply from: 'config/temp.gradle'
 
 android {
     compileSdkVersion 23

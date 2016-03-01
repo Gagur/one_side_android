@@ -1,0 +1,8 @@
+
+jacoco {
+    toolVersion = "0.7.1.201405082137"
+}
+
+task hello << {
+    println 'hello world!'
+}
